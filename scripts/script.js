@@ -1,6 +1,3 @@
-// script.js
-
-// Validação de Login
 document.getElementById("form-login").addEventListener("submit", e => {
     e.preventDefault();
     const usuario = document.getElementById("usuario").value;
@@ -11,7 +8,7 @@ document.getElementById("form-login").addEventListener("submit", e => {
     document.getElementById("login-result").textContent = resultado;
   });
   
-  // Desconto Progressivo
+
   document.getElementById("form-desconto").addEventListener("submit", e => {
     e.preventDefault();
     const valor = parseFloat(document.getElementById("valor").value);
@@ -20,7 +17,7 @@ document.getElementById("form-login").addEventListener("submit", e => {
       `Desconto aplicado: R$ ${desconto.toFixed(2)}. Valor final: R$ ${(valor - desconto).toFixed(2)}`;
   });
   
-  // Filtrando Números Pares
+
   document.getElementById("form-pares").addEventListener("submit", e => {
     e.preventDefault();
     const numeros = document.getElementById("numeros").value
@@ -31,7 +28,7 @@ document.getElementById("form-login").addEventListener("submit", e => {
     document.getElementById("pares-result").textContent = `Números pares: ${pares.join(", ")}`;
   });
   
-  // Gerenciador de Tarefas
+
   const tarefas = [];
   document.getElementById("form-tarefa").addEventListener("submit", e => {
     e.preventDefault();
