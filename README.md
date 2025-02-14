@@ -94,7 +94,7 @@ Este projeto implementa uma série de desafios de programação usando **JavaScr
 ## **Como Executar o Projeto** 🖥️
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/desafios-programacao.git
+   git clone https://github.com/sophi-hub/desafios-programacao.git
    ```
 2. Navegue até o diretório do projeto:
   ```bash
